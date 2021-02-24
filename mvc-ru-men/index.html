@@ -150,7 +150,7 @@
             <h2 class="fh5co-article-title animate-box">MVC入门</h2>
             <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
                 <li>2021-02-24</li>
-                <li>20字</li>
+                <li>109字</li>
                 <li>1 min read</li>
             </ol>
 
@@ -160,9 +160,60 @@
                         <p> <blockquote>
 <p>为了公司实习学习MVC架构，一起看看吧</p>
 </blockquote>
-<p>##MVC结构<br>
-*BundleConfig<br>
-*</p>
+<h2 id="mvc结构"><strong>MVC结构</strong></h2>
+<ol>
+<li>App_Start</li>
+</ol>
+<ul>
+<li>Bundleconfig:<u>打包器</u></li>
+</ul>
+<ul>
+<li>FilterConfig:<u>过滤器</u></li>
+<li>RouteConfig:<u>路由配置</u></li>
+</ul>
+<ol start="2">
+<li>
+<p>Content<br>
+bootstrap的css样式和本身的site</p>
+</li>
+<li>
+<p>fonts<br>
+bootstrap 中的字体和图片</p>
+</li>
+<li>
+<p>Scripts<br>
+js文件</p>
+</li>
+<li>
+<p>MVC</p>
+<ul>
+<li>
+<p>Models</p>
+</li>
+<li>
+<p>Views</p>
+<ul>
+<li>
+<p>Home       <em>与Controler一一对应</em></p>
+</li>
+<li>
+<p>Shared</p>
+</li>
+</ul>
+<p>Layout 中的@renderbody即主题渲染,会用About中的文件替代</p>
+</li>
+<li>
+<p>Controllers</p>
+</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>由地址栏访问控制器 通过models过滤 view中过滤然后显示出来</p>
+</blockquote>
+<ol start="6">
+<li></li>
+</ol>
  </p>
                     </div>
                 </div>
@@ -199,11 +250,23 @@
     <!-- 返回顶部 -->
     <div class="back-to-top">
     
+        <a href="#!" id="tool-toc" class="hidden-xs hidden-sm">
+            <i class="fa fa-map"></i>
+        </a>
+        <br>
+    
     <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
 </div>
 
 <div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
-    
+    <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#mvc%E7%BB%93%E6%9E%84"><strong>MVC结构</strong></a></li>
+</ul>
+</li>
+</ul>
+
 </div>
 
 
